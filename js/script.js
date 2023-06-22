@@ -1,8 +1,8 @@
 //Business Logic
 
 function convertToRoman (num) {
-    if (num <= 0|| num > 3999) {
-        return "<p>Invalid! Enter a valid number</p>" ;
+    if (num <= 0 || num > 3999) {
+        return "<p>Invalid! Enter a valid number</p>";
     }
     const numeralValues = [["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"], ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"], ["", "C", "CC", "CCC" , "CD", "D", "DC", "DCC", "DCCC", "CM"],  ["", "M", "MM", "MMM"]];
 
@@ -23,5 +23,5 @@ $(document).ready(function() {
 
         $("#output").html(result);
         event.preventDefault();
-    })
-})
+    });
+});
