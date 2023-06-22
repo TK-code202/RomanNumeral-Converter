@@ -28,7 +28,8 @@ body {
     margin-top: 8%;
     width: 75%;
     margin-left: 7%;
-    background-color: rgba(185, 185, 185, 0.849);
+    /* background-color: rgba(185, 185, 185, 0.849); */
+    background: linear-gradient(to top right, rgba(185, 185, 185, 0.849), rgba(252, 252, 111, 0.808) );
     padding: 30px;
     border-radius: 8px;
     padding-bottom: 100px;
