@@ -15,7 +15,7 @@ function convertToRoman (num) {
     return numeral;
 }
 
-
+//UI Logic
 $(document).ready(function() {
     $("#formOne").submit(function(event) {
         const inputtedNumber = $("#Number").val();
