@@ -27,7 +27,7 @@ _The application converts numbers (arabic numerals) into Roman Numerals accordin
 ### _Test Driven Development_
 * _Describe: convertNumeral()_
 
-1 _Test: "It will ensure numbers are within the rang of 1-3999."_
+1 _Test: "It will ensure numbers are within the range of 1-3999."_
 * _Code: convertNumeral("-5");_
 * _Expected Output: "Invalid"_
 
